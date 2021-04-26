@@ -1,10 +1,5 @@
 import React from "react";
 import axios from "axios";
-import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-
 
 export default function Weather(props) {
 
@@ -30,7 +25,7 @@ export default function Weather(props) {
             </h3>
             <div className="row">
                 <div className="col-sm-1">
-                    <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" />
+                    <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="Sunny day" />
                 </div>
                 <div className="col-sm-1">
                     13°C
