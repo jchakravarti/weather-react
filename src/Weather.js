@@ -1,5 +1,6 @@
 import React from "react";
 import axios from "axios";
+import './Weather.css';
 
 export default function Weather(props) {
 
@@ -31,6 +32,9 @@ export default function Weather(props) {
                     13°C
                 </div>
             </div>
+            <p>
+                   <a href="https://github.com/jchakravarti/weather-react"> Open source code </a> by Jayani Chakravarti 
+                </p>
         </div>
     )
 }
