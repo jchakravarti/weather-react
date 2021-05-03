@@ -1,0 +1,14 @@
+.container {
+  padding-top: 20px;
+}
+
+.weather {
+  border: 1px solid plum;
+  border-radius: 30px;
+  padding-top: 20px;
+  padding-left: 15px;
+}
+p {
+  padding-top: 15px;
+  padding-left: 170px;
+}

@@ -5,9 +5,11 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Weather App </h1>
-        <button className="btn btn-primary">Hello</button>
+        <Weather />
       </div>
+      <p>
+        <a href="https://github.com/jchakravarti/weather-react" target="_blank">Open Source Code</a> by Jayani Chakravarti
+      </p>
     </div>
   );
 }
