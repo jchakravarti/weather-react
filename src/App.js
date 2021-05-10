@@ -8,7 +8,7 @@ function App() {
         <Weather defaultCity="Paris" />
       </div>
       <p>
-        <a href="https://github.com/jchakravarti/weather-react" target="_blank">Open Source Code</a> by Jayani Chakravarti
+        <a href="https://github.com/jchakravarti/weather-react" target="_blank" rel="noreferrer">Open Source Code</a> by Jayani Chakravarti
       </p>
     </div>
   );
