@@ -11,6 +11,7 @@ const [ready, setReady] = useState(false);
 function handleResponse(response) {
     setWeatherData({
         city: response.data.name,
+        coord: response.data.coord,
         date: new Date(response.data.dt * 1000),
         temperature: response.data.main.temp,
         icon: response.data.weather[0].icon,
@@ -49,7 +50,7 @@ if (ready) {
                 </div>
             </form>
             <WeatherInfo data={weatherData}/>
-            <WeatherForecast />
+            <WeatherForecast coord={weatherData.coord}/>
         </div>
     )
 
