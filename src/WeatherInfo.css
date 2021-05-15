@@ -1,26 +1,40 @@
 .WeatherInfo {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .WeatherInfo-date {
   padding-left: 0;
+  padding-bottom: 5px;
 }
 
 .WeatherInfo h1 {
   margin-top: 10px;
   margin: 0;
-  font-size: 45px;
+  font-size: 42px;
+  font-family: fantasy;
 }
 
 .headings {
   padding-left: 0;
   padding-top: 0;
   margin-left: 0;
-  font-size: 15px;
+  font-size: 17px;
+  padding-bottom: 15px;
+  font-family: fantasy;
 }
 
-h1 {
-  margin: 0;
-  padding-bottom: 0;
-  line-height: 29px;
+.WeatherInfo .humidity,
+.wind {
+  font-size: 17px;
+  font-family: fantasy;
+}
+
+.WeatherInfo .humidity {
+  padding-top: 20px;
+}
+
+.WeatherInfo .icon {
+  position: relative;
+  bottom: -10px;
+  padding-right: 10px;
 }

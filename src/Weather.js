@@ -42,10 +42,10 @@ if (ready) {
             <form onSubmit={handleSubmit}>
                 <div className="row">
                 <div className="col-8">
-                <input type="search" placeholder="Enter a city" className="form-control" onChange={handleCityChange} />
+                <input type="search" placeholder="Enter a city" className="form-control form" onChange={handleCityChange} />
                 </div>
                 <div className="col-4">
-                <input type="submit" className="btn-primary" placeholder="Search" />
+                <input type="submit" className="btn-primary w-100 button" placeholder="Search" />
                 </div>
                 </div>
             </form>

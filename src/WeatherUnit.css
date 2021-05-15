@@ -1,0 +1,12 @@
+.WeatherUnit .temperature {
+  font-size: 65px;
+  position: relative;
+  top: -10px;
+  padding-bottom: 15px;
+}
+
+.WeatherUnit .tempUnit {
+  font-size: 12px;
+  position: relative;
+  bottom: -10px;
+}

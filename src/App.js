@@ -7,9 +7,9 @@ function App() {
       <div className="container">
         <Weather defaultCity="Paris" />
       </div>
-      <p>
-        <a href="https://github.com/jchakravarti/weather-react" target="_blank" rel="noreferrer">Open Source Code</a> by Jayani Chakravarti
-      </p>
+      <footer>
+        This project was coded by <a href="https://www.linkedin.com/in/jayani-chakravarti-bb4b04106/" target="_blank" rel="noreferrer">Jayani Chakravarti</a> and is <a href="https://github.com/jchakravarti/weather-react" target="_blank" rel="noreferrer">open-sourced on GitHub</a>
+      </footer>
     </div>
   );
 }
